@@ -10,7 +10,6 @@ export * from "./types/LoggerMessageOptions";
 export * from "./types/LogRecord";
 export * from "./types/LoggerEntry";
 export * from "./DefaultLogger";
-export * from "./LoggerCore";
 export * from "./factory/LoggerFactoryImpl";
 export * from "./formatters/PlainTextFormatter";
 export * from "./formatters/JsonFormatter";

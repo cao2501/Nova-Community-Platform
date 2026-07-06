@@ -1,0 +1,46 @@
+﻿{
+  "name": "community-platform",
+  "private": true,
+  "version": "0.1.0",
+  "packageManager": "pnpm@10.14.0",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "typecheck": "turbo run typecheck",
+    "test": "turbo run test",
+    "prepare": "husky install",
+    "format": "prettier --write .",
+    "clean": "rimraf dist .turbo node_modules",
+    "bootstrap": "pnpm install",
+    "lint:fix": "turbo run lint -- --fix",
+    "changeset": "changeset"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.0.0",
+    "@types/node": "^22.4.0",
+    "@typescript-eslint/eslint-plugin": "^8.62.1",
+    "@typescript-eslint/parser": "^8.62.1",
+    "cross-env": "^9.0.0",
+    "eslint": "^9.9.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "^2.30.0",
+    "eslint-plugin-unused-imports": "^3.1.0",
+    "@changesets/changelog-github": "^1.0.0",
+    "@commitlint/cli": "^17.0.0",
+    "@commitlint/config-conventional": "^17.0.0",
+    "@community-platform/contracts": "workspace:0.1.0",
+    "@community-platform/eslint-config": "workspace:0.1.0",
+    "@community-platform/prettier-config": "workspace:0.1.0",
+    "@community-platform/typescript-config": "workspace:0.1.0",
+    "husky": "^9.0.0",
+    "prettier": "^3.12.0",
+    "rimraf": "^5.0.0",
+    "turbo": "^2.10.3",
+    "typescript": "^6.0.3"
+  }
+}
+

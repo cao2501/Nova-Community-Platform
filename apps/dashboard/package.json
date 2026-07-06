@@ -1,0 +1,13 @@
+﻿{
+  "name": "@community-platform/dashboard",
+  "private": true,
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "echo \"Dev placeholder for @community-platform/dashboard\"",
+    "build": "tsc -p ../../tsconfig.base.json --outDir dist",
+    "lint": "eslint . --ext .ts,.tsx",
+    "typecheck": "tsc -p ../../tsconfig.base.json --noEmit"
+  }
+}

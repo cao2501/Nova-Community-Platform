@@ -1,0 +1,8 @@
+{
+  "$schema": "https://unpkg.com/@changesets/config/default/index.json",
+  "changelog": ["@changesets/changelog-github", {"repo":"community-platform/community-platform"}],
+  "commit": false,
+  "linked": [],
+  "access": "restricted",
+  "baseBranch": "main"
+}

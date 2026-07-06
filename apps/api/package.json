@@ -1,0 +1,13 @@
+﻿{
+  "name": "@community-platform/api",
+  "private": true,
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "echo \"Dev placeholder for @community-platform/api\"",
+    "build": "tsc -p ../../tsconfig.base.json --outDir dist",
+    "lint": "eslint . --ext .ts",
+    "typecheck": "tsc -p ../../tsconfig.base.json --noEmit"
+  }
+}

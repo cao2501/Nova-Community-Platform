@@ -1,0 +1,20 @@
+﻿{
+  "extends": "./internal/typescript-config/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@community-platform/core": ["packages/core/src"],
+      "@community-platform/config": ["packages/config/src"],
+      "@community-platform/database": ["packages/database/src"],
+      "@community-platform/cache": ["packages/cache/src"],
+      "@community-platform/logger": ["packages/logger/src"],
+      "@community-platform/events": ["packages/events/src"],
+      "@community-platform/sdk": ["packages/sdk/src"],
+      "@community-platform/shared": ["packages/shared/src"],
+      "@community-platform/types": ["packages/types/src"],
+      "@community-platform/testing": ["packages/testing/src"]
+    ]
+  },
+  "include": ["packages/**/*.ts", "apps/**/*.ts", "apps/**/*.tsx", "packages/**/*.tsx"]
+}
+

@@ -1,0 +1,12 @@
+﻿{
+  "name": "@community-platform/types",
+  "private": true,
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p ../../tsconfig.base.json --outDir dist",
+    "lint": "eslint . --ext .ts",
+    "typecheck": "tsc -p ../../tsconfig.base.json --noEmit"
+  }
+}

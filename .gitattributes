@@ -1,0 +1,18 @@
+# Auto-detect text files and normalize line endings
+* text=auto
+*.md text
+*.json text
+*.yaml text
+*.yml text
+*.ts text
+*.tsx text
+*.js text
+*.cjs text
+*.mjs text
+*.sh text eol=lf
+
+# Ignore generated files
+node_modules/** linguist-vendored
+dist/**
+.turbo/**
+coverage/**

@@ -1,0 +1,6 @@
+{
+  "name": "@community-platform/typescript-config",
+  "private": true,
+  "version": "0.1.0",
+  "main": "tsconfig.json"
+}
